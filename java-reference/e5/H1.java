@@ -274,7 +274,7 @@ public final class H1 implements InterfaceE {
                     }
                     AbstractW.C(c, c2395p8, I.c);
                     O2 c2394o2 = AbstractH7.a;
-                    AbstractA7.b("带 ~ 前缀的速率（如 ~866 Mbps）表示当前设备协商速率大于或等于该速率，该速率往往不代表最终协商速率。", null, 0L, 0L, null, null, 0L, null, 0L, 0, false, 0, 0, ((G7) c2395p8.k(c2394o2)).k, c2395p8, 6, 0, 65534);
+                    AbstractA7.b("带 ~ 前缀的速率（如 ~866 Mb/s）表示当前设备协商速率大于或等于该速率，该速率往往不代表最终协商速率。", null, 0L, 0L, null, null, 0L, null, 0L, 0, false, 0, 0, ((G7) c2395p8.k(c2394o2)).k, c2395p8, 6, 0, 65534);
                     AbstractA7.b("对于 USB 以太网卡，在用户允许本软件访问 USB 设备后，可读取 USB 总线标准并在接口名右侧显示。USB2.0 及以下会附带参考速率；USB3 及以上仅显示代际版本（如 USB3.2），不显示具体 Gbps，因 Gen1/Gen2 等差异无法从描述符准确区分，所示速率不一定准确。", null, 0L, 0L, null, null, 0L, null, 0L, 0, false, 0, 0, ((G7) c2395p8.k(c2394o2)).k, c2395p8, 6, 0, 65534);
                     c2395p8.r(true);
                 }

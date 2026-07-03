@@ -240,7 +240,7 @@ public final class FloatingSpeedService extends Service {
     
     public final String m987f() {
         if (this.v == EnumFb.e) {
-            return "Mbps";
+            return "Mb/s";
         }
         return "MB/s";
     }

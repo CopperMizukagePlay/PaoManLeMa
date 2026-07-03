@@ -159,7 +159,7 @@ public final class Yd implements InterfaceF {
                     if (z9) {
                         str = "多接口测速时自动禁用限速";
                     } else {
-                        str = "总速与下载/上传互斥，按 Mbps 限制";
+                        str = "总速与下载/上传互斥，按 Mb/s 限制";
                     }
                     String str2 = str;
                     E m = AbstractA.m();

@@ -1720,7 +1720,7 @@ public abstract class AbstractRm {
         if (d7 <= 0.0d) {
             return "0 bps";
         }
-        String[] strArr = {"bps", "Kbps", "Mbps", "Gbps"};
+        String[] strArr = {"b/s", "Kb/s", "Mb/s", "Gb/s"};
         int i7 = 0;
         while (d7 >= 1000.0d && i7 < 3) {
             d7 /= 1000.0d;

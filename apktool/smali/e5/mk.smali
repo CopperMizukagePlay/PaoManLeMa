@@ -67387,7 +67387,7 @@
 
     .line 134
     .line 135
-    const-string v4, "Mbps"
+    const-string v4, "Mb/s"
 
     .line 136
     .line 137
@@ -67523,7 +67523,7 @@
     move-result-object p0
 
     .line 201
-    const-string p1, "Gbps"
+    const-string p1, "Gb/s"
 
     .line 202
     .line 203

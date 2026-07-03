@@ -42017,15 +42017,15 @@ public abstract class AbstractMk {
             throw new RuntimeException();
         }
         if (d7 <= 0.0d) {
-            return new Jt("--", "Mbps");
+            return new Jt("--", "Mb/s");
         }
         if (d7 < 1.0d) {
             return new Jt(String.format(Locale.US, "%.1f", Arrays.copyOf(new Object[]{Double.valueOf(d7 * 1000.0d)}, 1)), "Kbps");
         }
         if (d7 >= 1000.0d) {
-            return new Jt(String.format(Locale.US, "%.2f", Arrays.copyOf(new Object[]{Double.valueOf(d7 / 1000.0d)}, 1)), "Gbps");
+            return new Jt(String.format(Locale.US, "%.2f", Arrays.copyOf(new Object[]{Double.valueOf(d7 / 1000.0d)}, 1)), "Gb/s");
         }
-        return new Jt(String.format(Locale.US, "%.2f", Arrays.copyOf(new Object[]{Double.valueOf(d7)}, 1)), "Mbps");
+        return new Jt(String.format(Locale.US, "%.2f", Arrays.copyOf(new Object[]{Double.valueOf(d7)}, 1)), "Mb/s");
     }
 
     

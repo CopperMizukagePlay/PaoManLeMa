@@ -261,7 +261,7 @@
 
     .line 104
     .line 105
-    const-string v0, "\u901f\u7387\u5355\u4f4d\uff1aMbps"
+    const-string v0, "\u901f\u7387\u5355\u4f4d\uff1aMb/s"
 
     .line 106
     .line 107

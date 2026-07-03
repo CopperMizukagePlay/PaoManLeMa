@@ -137,7 +137,7 @@
 
     .line 31
     .line 32
-    const-string p1, "Mbps"
+    const-string p1, "Mb/s"
 
     .line 33
     .line 34

@@ -263,7 +263,7 @@
 
     .line 69
     :cond_4
-    const-string v3, "\u603b\u901f\u4e0e\u4e0b\u8f7d/\u4e0a\u4f20\u4e92\u65a5\uff0c\u6309 Mbps \u9650\u5236"
+    const-string v3, "\u603b\u901f\u4e0e\u4e0b\u8f7d/\u4e0a\u4f20\u4e92\u65a5\uff0c\u6309 Mb/s \u9650\u5236"
 
     .line 70
     .line 71

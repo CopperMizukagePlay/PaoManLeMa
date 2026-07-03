@@ -190,7 +190,7 @@
     move-result-object p0
 
     .line 28
-    const-string v1, "%.0f Gbps"
+    const-string v1, "%.0f Gb/s"
 
     .line 29
     .line 30
@@ -217,7 +217,7 @@
     .line 40
     .line 41
     .line 42
-    const-string v4, "%.0f Mbps"
+    const-string v4, "%.0f Mb/s"
 
     .line 43
     .line 44
@@ -343,7 +343,7 @@
     move-result-object v0
 
     .line 100
-    const-string v1, "%.1f Mbps"
+    const-string v1, "%.1f Mb/s"
 
     .line 101
     .line 102
@@ -414,7 +414,7 @@
     .line 132
     .line 133
     .line 134
-    const-string p0, " Kbps"
+    const-string p0, " Kb/s"
 
     .line 135
     .line 136
@@ -771,7 +771,7 @@
     move-result-object p0
 
     .line 27
-    const-string v1, "%.0f Gbps"
+    const-string v1, "%.0f Gb/s"
 
     .line 28
     .line 29
@@ -820,7 +820,7 @@
     .line 49
     .line 50
     .line 51
-    const-string p0, " Gbps"
+    const-string p0, " Gb/s"
 
     .line 52
     .line 53
@@ -879,7 +879,7 @@
     move-result-object p0
 
     .line 79
-    const-string v1, "%.1f Gbps"
+    const-string v1, "%.1f Gb/s"
 
     .line 80
     .line 81
@@ -909,7 +909,7 @@
     .line 92
     .line 93
     .line 94
-    const-string p0, " Mbps"
+    const-string p0, " Mb/s"
 
     .line 95
     .line 96

@@ -106,7 +106,7 @@ public final class Fq implements InterfaceF {
                 } else {
                     z12 = false;
                 }
-                AbstractHr.M(this.f, this.g, this.h, this.i, this.j, this.k, z10, z11, z12, "下载 Mbps", "上传 Mbps", "总速 Mbps", c2395p2, 805306368, 54, 0);
+                AbstractHr.M(this.f, this.g, this.h, this.i, this.j, this.k, z10, z11, z12, "下载 Mb/s", "上传 Mb/s", "总速 Mb/s", c2395p2, 805306368, 54, 0);
                 return M.a;
         }
     }

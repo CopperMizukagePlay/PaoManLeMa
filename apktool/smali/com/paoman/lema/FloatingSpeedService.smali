@@ -1014,7 +1014,7 @@
 
     .line 6
     .line 7
-    const-string v0, "Mbps"
+    const-string v0, "Mb/s"
 
     .line 8
     .line 9

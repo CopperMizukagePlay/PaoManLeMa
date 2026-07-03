@@ -20,7 +20,7 @@ public final class EnumXn {
     public final String e;
 
     static {
-        EnumXn enumC1436xn = new EnumXn(0, "MBPS", "Mbps");
+        EnumXn enumC1436xn = new EnumXn(0, "MBPS", "Mb/s");
         f = enumC1436xn;
         EnumXn enumC1436xn2 = new EnumXn(1, "MB_PER_SEC", "MB/s");
         g = enumC1436xn2;

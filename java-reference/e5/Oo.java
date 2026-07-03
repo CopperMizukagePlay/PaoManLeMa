@@ -132,7 +132,7 @@ public final class Oo extends View {
         this.o = "";
         this.p = "--";
         this.q = "--";
-        this.r = "Mbps";
+        this.r = "Mb/s";
         this.s = true;
         this.A = new Paint(1);
         Paint paint = new Paint(1);

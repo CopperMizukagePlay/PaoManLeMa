@@ -29,7 +29,7 @@
     const/4 v1, 0x0
 
     .line 4
-    const-string v2, "Mbps"
+    const-string v2, "Mb/s"
 
     .line 5
     .line 6

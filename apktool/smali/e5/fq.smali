@@ -245,15 +245,15 @@
 
     .line 72
     .line 73
-    const-string v11, "\u4e0b\u8f7d Mbps"
+    const-string v11, "\u4e0b\u8f7d Mb/s"
 
     .line 74
     .line 75
-    const-string v12, "\u4e0a\u4f20 Mbps"
+    const-string v12, "\u4e0a\u4f20 Mb/s"
 
     .line 76
     .line 77
-    const-string v13, "\u603b\u901f Mbps"
+    const-string v13, "\u603b\u901f Mb/s"
 
     .line 78
     .line 79

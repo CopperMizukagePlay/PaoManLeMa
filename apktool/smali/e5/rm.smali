@@ -12270,19 +12270,19 @@
 
     .line 10
     :cond_0
-    const-string v0, "Mbps"
+    const-string v0, "Mb/s"
 
     .line 11
     .line 12
-    const-string v1, "Gbps"
+    const-string v1, "Gb/s"
 
     .line 13
     .line 14
-    const-string v2, "bps"
+    const-string v2, "b/s"
 
     .line 15
     .line 16
-    const-string v3, "Kbps"
+    const-string v3, "Kb/s"
 
     .line 17
     .line 18

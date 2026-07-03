@@ -155,7 +155,7 @@ public final /* synthetic */ class L4 implements InterfaceA {
                 interfaceC2425y0.setValue(enumC1436xn);
                 AbstractRm.C0(context, (EnumXn) interfaceC2425y0.getValue());
                 if (((EnumXn) interfaceC2425y0.getValue()) == enumC1436xn3) {
-                    str = "速率单位：Mbps";
+                    str = "速率单位：Mb/s";
                 } else {
                     str = "速率单位：MB/s";
                 }

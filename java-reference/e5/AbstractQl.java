@@ -42,19 +42,19 @@ public abstract class AbstractQl {
     
     public static String a(int i7) {
         if (i7 >= 1000000) {
-            return String.format(Locale.US, "%.0f Gbps", Arrays.copyOf(new Object[]{Double.valueOf(i7 / 1000000.0d)}, 1));
+            return String.format(Locale.US, "%.0f Gb/s", Arrays.copyOf(new Object[]{Double.valueOf(i7 / 1000000.0d)}, 1));
         }
         if (i7 >= 10000) {
-            return String.format(Locale.US, "%.0f Mbps", Arrays.copyOf(new Object[]{Double.valueOf(i7 / 1000.0d)}, 1));
+            return String.format(Locale.US, "%.0f Mb/s", Arrays.copyOf(new Object[]{Double.valueOf(i7 / 1000.0d)}, 1));
         }
         if (i7 >= 1000) {
             double d7 = i7 / 1000.0d;
             if (d7 < 100.0d && d7 != ((long) d7)) {
-                return String.format(Locale.US, "%.1f Mbps", Arrays.copyOf(new Object[]{Double.valueOf(d7)}, 1));
+                return String.format(Locale.US, "%.1f Mb/s", Arrays.copyOf(new Object[]{Double.valueOf(d7)}, 1));
             }
-            return String.format(Locale.US, "%.0f Mbps", Arrays.copyOf(new Object[]{Double.valueOf(d7)}, 1));
+            return String.format(Locale.US, "%.0f Mb/s", Arrays.copyOf(new Object[]{Double.valueOf(d7)}, 1));
         }
-        return i7 + " Kbps";
+        return i7 + " Kb/s";
     }
 
     
@@ -91,15 +91,15 @@ public abstract class AbstractQl {
     
     public static String d(int i7) {
         if (i7 >= 10000) {
-            return String.format(Locale.US, "%.0f Gbps", Arrays.copyOf(new Object[]{Double.valueOf(i7 / 1000.0d)}, 1));
+            return String.format(Locale.US, "%.0f Gb/s", Arrays.copyOf(new Object[]{Double.valueOf(i7 / 1000.0d)}, 1));
         }
         if (i7 >= 1000 && i7 % 1000 == 0) {
-            return (i7 / 1000) + " Gbps";
+            return (i7 / 1000) + " Gb/s";
         }
         if (i7 >= 1000) {
-            return String.format(Locale.US, "%.1f Gbps", Arrays.copyOf(new Object[]{Double.valueOf(i7 / 1000.0d)}, 1));
+            return String.format(Locale.US, "%.1f Gb/s", Arrays.copyOf(new Object[]{Double.valueOf(i7 / 1000.0d)}, 1));
         }
-        return i7 + " Mbps";
+        return i7 + " Mb/s";
     }
 
     
