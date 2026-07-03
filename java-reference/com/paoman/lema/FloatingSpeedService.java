@@ -8,122 +8,120 @@ import android.view.WindowManager;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import p001a0.C0075s1;
-import p032d6.AbstractC0525d0;
-import p032d6.AbstractC0549l0;
-import p032d6.C0545k;
-import p032d6.C0565q1;
-import p032d6.C0568r1;
-import p039e5.AbstractC1092mk;
-import p039e5.AbstractC1220qo;
-import p039e5.C0725au;
-import p039e5.C0833eb;
-import p039e5.C0976ir;
-import p039e5.C1100ms;
-import p039e5.C1158oo;
-import p039e5.C1247rk;
-import p039e5.EnumC0749bm;
-import p039e5.EnumC0865fb;
-import p039e5.EnumC1070lt;
-import p060h5.AbstractC1805m;
-import p068i5.AbstractC2080d;
-import p069i6.AbstractC2100m;
-import p069i6.C2090c;
-import p076j5.C2178a;
-import p082k5.InterfaceC2313c;
-import p083k6.C2325e;
-import p158u5.AbstractC3367j;
+import a0.S1;
+import d6.AbstractD0;
+import d6.AbstractL0;
+import d6.K;
+import d6.Q1;
+import d6.R1;
+import e5.AbstractMk;
+import e5.AbstractQo;
+import e5.Au;
+import e5.Eb;
+import e5.Ir;
+import e5.Ms;
+import e5.Oo;
+import e5.Rk;
+import e5.EnumBm;
+import e5.EnumFb;
+import e5.EnumLt;
+import h5.AbstractM;
+import i5.AbstractD;
+import i6.AbstractM;
+import i6.C;
+import j5.A;
+import k5.InterfaceC;
+import k6.E;
+import u5.AbstractJ;
 
-/* compiled from: r8-map-id-091eedbcc63bb3784ce17035a64051c23f885688c02fb159d88a8d507f170047 */
-/* loaded from: classes.dex */
 public final class FloatingSpeedService extends Service {
 
-    /* renamed from: A */
-    public static final /* synthetic */ int f1540A = 0;
+    
+    public static final /* synthetic */ int A = 0;
 
-    /* renamed from: e */
-    public final C2090c f1541e;
+    
+    public final C e;
 
-    /* renamed from: f */
-    public final C1100ms f1542f;
+    
+    public final Ms f;
 
-    /* renamed from: g */
-    public C0565q1 f1543g;
+    
+    public Q1 g;
 
-    /* renamed from: h */
-    public C0565q1 f1544h;
+    
+    public Q1 h;
 
-    /* renamed from: i */
-    public WindowManager f1545i;
+    
+    public WindowManager i;
 
-    /* renamed from: j */
-    public C1158oo f1546j;
+    
+    public Oo j;
 
-    /* renamed from: k */
-    public EnumC0749bm f1547k;
+    
+    public EnumBm k;
 
-    /* renamed from: l */
-    public boolean f1548l;
+    
+    public boolean l;
 
-    /* renamed from: m */
-    public ArrayList f1549m;
+    
+    public ArrayList m;
 
-    /* renamed from: n */
-    public ArrayList f1550n;
+    
+    public ArrayList n;
 
-    /* renamed from: o */
-    public boolean f1551o;
+    
+    public boolean o;
 
-    /* renamed from: p */
-    public boolean f1552p;
+    
+    public boolean p;
 
-    /* renamed from: q */
-    public boolean f1553q;
+    
+    public boolean q;
 
-    /* renamed from: r */
-    public String f1554r;
+    
+    public String r;
 
-    /* renamed from: s */
-    public boolean f1555s;
+    
+    public boolean s;
 
-    /* renamed from: t */
-    public long f1556t;
+    
+    public long t;
 
-    /* renamed from: u */
-    public C0725au f1557u;
+    
+    public Au u;
 
-    /* renamed from: v */
-    public EnumC0865fb f1558v;
+    
+    public EnumFb v;
 
-    /* renamed from: w */
-    public final ArrayList f1559w;
+    
+    public final ArrayList w;
 
-    /* renamed from: x */
-    public final ArrayList f1560x;
+    
+    public final ArrayList x;
 
-    /* renamed from: y */
-    public long f1561y;
+    
+    public long y;
 
-    /* renamed from: z */
-    public long f1562z;
+    
+    public long z;
 
     public FloatingSpeedService() {
-        C0568r1 m1124b = AbstractC0525d0.m1124b();
-        C2325e c2325e = AbstractC0549l0.f1898a;
-        this.f1541e = AbstractC0525d0.m1123a(AbstractC2080d.m3374B(m1124b, AbstractC2100m.f12376a));
-        this.f1542f = new C1100ms();
-        this.f1547k = EnumC0749bm.f2843e;
-        this.f1549m = new ArrayList();
-        this.f1550n = new ArrayList();
-        this.f1554r = AbstractC1220qo.m2157b(250L);
-        this.f1558v = EnumC0865fb.f3982e;
-        this.f1559w = new ArrayList();
-        this.f1560x = new ArrayList();
+        R1 b = AbstractD0.b();
+        E c2325e = AbstractL0.a;
+        this.e = AbstractD0.a(AbstractD.B(b, AbstractM.a));
+        this.f = new Ms();
+        this.k = EnumBm.e;
+        this.m = new ArrayList();
+        this.n = new ArrayList();
+        this.r = AbstractQo.b(250L);
+        this.v = EnumFb.e;
+        this.w = new ArrayList();
+        this.x = new ArrayList();
     }
 
-    /* JADX WARN: Multi-variable type inference failed */
-    /* JADX WARN: Type inference failed for: r0v3, types: [java.util.List, java.util.Collection] */
-    /* renamed from: e */
+    
+    
+    
     public static double m982e(ArrayList arrayList) {
         if (arrayList.isEmpty()) {
             return 0.0d;
@@ -138,38 +136,38 @@ public final class FloatingSpeedService extends Service {
                 arrayList2.add(obj);
             }
         }
-        ?? m3062z0 = AbstractC1805m.m3062z0(AbstractC1805m.m3061y0(arrayList2, C2178a.f12608g), 50);
-        if (!m3062z0.isEmpty()) {
-            arrayList = m3062z0;
+        ?? z0 = AbstractM.z0(AbstractM.y0(arrayList2, A.g), 50);
+        if (!z0.isEmpty()) {
+            arrayList = z0;
         }
-        return AbstractC1805m.m3040d0(arrayList);
+        return AbstractM.d0(arrayList);
     }
 
-    /* renamed from: a */
+    
     public final String m983a(double d7) {
-        if (this.f1558v != EnumC0865fb.f3982e) {
+        if (this.v != EnumFb.e) {
             d7 /= 8.0d;
         }
         return String.format("%.1f", Arrays.copyOf(new Object[]{Double.valueOf(d7)}, 1));
     }
 
-    /* renamed from: b */
+    
     public final void m984b() {
-        C1158oo c1158oo = this.f1546j;
+        Oo c1158oo = this.j;
         if (c1158oo != null) {
-            c1158oo.m2023f("跑满了吗", "测速完成 · 最高50点平均", m983a(m982e(this.f1559w)), m983a(m982e(this.f1560x)), m987f(), true, false);
+            c1158oo.f("跑满了吗", "测速完成 · 最高50点平均", m983a(m982e(this.w)), m983a(m982e(this.x)), m987f(), true, false);
         }
     }
 
-    /* renamed from: c */
+    
     public final void m985c() {
         String str;
         String str2;
         boolean z7;
-        C1158oo c1158oo = this.f1546j;
+        Oo c1158oo = this.j;
         if (c1158oo != null) {
-            EnumC0749bm enumC0749bm = this.f1547k;
-            EnumC0749bm enumC0749bm2 = EnumC0749bm.f2844f;
+            EnumBm enumC0749bm = this.k;
+            EnumBm enumC0749bm2 = EnumBm.f;
             if (enumC0749bm == enumC0749bm2) {
                 str = "ROOT Monitor";
             } else {
@@ -182,66 +180,66 @@ public final class FloatingSpeedService extends Service {
             }
             String str3 = str2;
             String m987f = m987f();
-            if (this.f1547k == EnumC0749bm.f2843e) {
+            if (this.k == EnumBm.e) {
                 z7 = true;
             } else {
                 z7 = false;
             }
             boolean z8 = z7;
-            c1158oo.m2023f(str, str3, "--", "--", m987f, z8, this.f1548l);
+            c1158oo.f(str, str3, "--", "--", m987f, z8, this.l);
         }
     }
 
-    /* renamed from: d */
+    
     public final void m986d(boolean z7, boolean z8) {
-        if (!this.f1548l) {
-            this.f1548l = true;
-            this.f1559w.clear();
-            this.f1560x.clear();
-            this.f1561y = 0L;
-            this.f1562z = 0L;
-            C1158oo c1158oo = this.f1546j;
+        if (!this.l) {
+            this.l = true;
+            this.w.clear();
+            this.x.clear();
+            this.y = 0L;
+            this.z = 0L;
+            Oo c1158oo = this.j;
             if (c1158oo != null) {
-                c1158oo.f6710l.clear();
-                c1158oo.f6711m.clear();
+                c1158oo.l.clear();
+                c1158oo.m.clear();
                 c1158oo.invalidate();
             }
             m985c();
-            C1247rk c1247rk = C1247rk.f7381h;
-            c1247rk.m2197k(this);
-            ArrayList arrayList = this.f1549m;
-            ArrayList arrayList2 = this.f1550n;
-            boolean z9 = this.f1551o;
-            long j6 = this.f1556t;
+            Rk c1247rk = Rk.h;
+            c1247rk.k(this);
+            ArrayList arrayList = this.m;
+            ArrayList arrayList2 = this.n;
+            boolean z9 = this.o;
+            long j6 = this.t;
             Long valueOf = Long.valueOf(j6);
             if (j6 <= 0) {
                 valueOf = null;
             }
             Long l7 = valueOf;
-            boolean z10 = this.f1552p;
-            boolean z11 = this.f1555s;
-            boolean z12 = this.f1553q;
-            List list = AbstractC1220qo.f7143a;
-            String str = this.f1554r;
-            boolean z13 = this.f1551o;
-            AbstractC3367j.m5100e(str, "text");
-            long m2156a = AbstractC1220qo.m2156a(str);
+            boolean z10 = this.p;
+            boolean z11 = this.s;
+            boolean z12 = this.q;
+            List list = AbstractQo.a;
+            String str = this.r;
+            boolean z13 = this.o;
+            AbstractJ.e(str, "text");
+            long a = AbstractQo.a(str);
             if (z13) {
-                m2156a = Math.max(m2156a, 1000L);
+                a = Math.max(a, 1000L);
             }
-            EnumC1070lt m1756Y2 = AbstractC1092mk.m1756Y2(this);
-            C1100ms.m1896Q0(this.f1542f, arrayList, arrayList2, null, null, z7, z8, z9, l7, null, null, z10, z11, z12, m2156a, m1756Y2, null, false, null, null, null, null, 0, 134092556);
-            C1100ms c1100ms = this.f1542f;
-            if (!((C0976ir) c1100ms.f6087j1.f10535e.getValue()).f4968a && !((C0976ir) c1100ms.f6087j1.f10535e.getValue()).f4969b) {
-                this.f1548l = false;
-                c1247rk.m2202v();
+            EnumLt Y2 = AbstractMk.Y2(this);
+            Ms.Q0(this.f, arrayList, arrayList2, null, null, z7, z8, z9, l7, null, null, z10, z11, z12, a, Y2, null, false, null, null, null, null, 0, 134092556);
+            Ms c1100ms = this.f;
+            if (!((Ir) c1100ms.j1.e.getValue()).a && !((Ir) c1100ms.j1.e.getValue()).b) {
+                this.l = false;
+                c1247rk.v();
             }
         }
     }
 
-    /* renamed from: f */
+    
     public final String m987f() {
-        if (this.f1558v == EnumC0865fb.f3982e) {
+        if (this.v == EnumFb.e) {
             return "Mbps";
         }
         return "MB/s";
@@ -255,21 +253,21 @@ public final class FloatingSpeedService extends Service {
     @Override // android.app.Service
     public final void onDestroy() {
         WindowManager windowManager;
-        C0565q1 c0565q1 = this.f1543g;
+        Q1 c0565q1 = this.g;
         if (c0565q1 != null) {
             c0565q1.mo1114c(null);
         }
-        C0565q1 c0565q12 = this.f1544h;
+        Q1 c0565q12 = this.h;
         if (c0565q12 != null) {
             c0565q12.mo1114c(null);
         }
-        this.f1542f.m1962S0();
-        C1247rk.f7381h.m2202v();
-        C1158oo c1158oo = this.f1546j;
-        if (c1158oo != null && (windowManager = this.f1545i) != null) {
+        this.f.S0();
+        Rk.h.v();
+        Oo c1158oo = this.j;
+        if (c1158oo != null && (windowManager = this.i) != null) {
             windowManager.removeView(c1158oo);
         }
-        this.f1546j = null;
+        this.j = null;
         super.onDestroy();
     }
 
@@ -285,71 +283,71 @@ public final class FloatingSpeedService extends Service {
         boolean z10;
         long j6;
         int i9;
-        InterfaceC2313c interfaceC2313c = null;
+        InterfaceC interfaceC2313c = null;
         if (intent != null) {
             str = intent.getAction();
         } else {
             str = null;
         }
-        if (AbstractC3367j.m5096a(str, "com.paoman.lema.FLOATING_STOP")) {
+        if (AbstractJ.a(str, "com.paoman.lema.FLOATING_STOP")) {
             stopSelf();
             return 2;
         }
         if (intent == null || (arrayList = intent.getStringArrayListExtra("download_urls")) == null) {
-            arrayList = this.f1549m;
+            arrayList = this.m;
         }
-        this.f1549m = arrayList;
+        this.m = arrayList;
         if (intent == null || (arrayList2 = intent.getStringArrayListExtra("upload_urls")) == null) {
-            arrayList2 = this.f1550n;
+            arrayList2 = this.n;
         }
-        this.f1550n = arrayList2;
+        this.n = arrayList2;
         if (intent != null) {
-            z7 = intent.getBooleanExtra("use_root_stats", this.f1551o);
+            z7 = intent.getBooleanExtra("use_root_stats", this.o);
         } else {
-            z7 = this.f1551o;
+            z7 = this.o;
         }
-        this.f1551o = z7;
+        this.o = z7;
         if (intent != null) {
-            z8 = intent.getBooleanExtra("high_throughput_mode", this.f1552p);
+            z8 = intent.getBooleanExtra("high_throughput_mode", this.p);
         } else {
-            z8 = this.f1552p;
+            z8 = this.p;
         }
-        this.f1552p = z8;
+        this.p = z8;
         if (intent != null) {
-            z9 = intent.getBooleanExtra("extreme_mode", this.f1553q);
+            z9 = intent.getBooleanExtra("extreme_mode", this.q);
         } else {
-            z9 = this.f1553q;
+            z9 = this.q;
         }
-        this.f1553q = z9;
+        this.q = z9;
         if (intent == null || (str2 = intent.getStringExtra("sample_interval")) == null) {
-            str2 = this.f1554r;
+            str2 = this.r;
         }
-        this.f1554r = str2;
+        this.r = str2;
         if (intent != null) {
-            z10 = intent.getBooleanExtra("redirect_enhancement_mode", this.f1555s);
+            z10 = intent.getBooleanExtra("redirect_enhancement_mode", this.s);
         } else {
-            z10 = this.f1555s;
+            z10 = this.s;
         }
-        this.f1555s = z10;
+        this.s = z10;
         if (intent != null) {
-            j6 = intent.getLongExtra("duration_millis", this.f1556t);
+            j6 = intent.getLongExtra("duration_millis", this.t);
         } else {
-            j6 = this.f1556t;
+            j6 = this.t;
         }
-        this.f1556t = j6;
-        if (this.f1546j == null) {
+        this.t = j6;
+        if (this.j == null) {
             Object systemService = getSystemService("window");
-            AbstractC3367j.m5098c(systemService, "null cannot be cast to non-null type android.view.WindowManager");
-            this.f1545i = (WindowManager) systemService;
-            C1158oo c1158oo = new C1158oo(this);
-            c1158oo.f6703e = new C0833eb(this, 0);
-            c1158oo.f6704f = new C0833eb(this, 1);
-            c1158oo.f6705g = new C0833eb(this, 2);
-            c1158oo.f6706h = new C0833eb(this, 3);
-            c1158oo.f6707i = new C0833eb(this, 4);
-            c1158oo.f6708j = new C0833eb(this, 5);
-            c1158oo.f6709k = new C0545k(1, this);
-            this.f1546j = c1158oo;
+            AbstractJ.c(systemService, "null cannot be cast to non-null type android.view.WindowManager");
+            this.i = (WindowManager) systemService;
+            Oo c1158oo = new Oo(this);
+            c1158oo.e = new Eb(this, 0);
+            c1158oo.f = new Eb(this, 1);
+            c1158oo.g = new Eb(this, 2);
+            c1158oo.h = new Eb(this, 3);
+            c1158oo.i = new Eb(this, 4);
+            c1158oo.j = new Eb(this, 5);
+            c1158oo.k = new K(1, this);
+            this.j = c1158oo;
             if (Build.VERSION.SDK_INT >= 26) {
                 i9 = 2038;
             } else {
@@ -359,16 +357,16 @@ public final class FloatingSpeedService extends Service {
             layoutParams.gravity = 8388693;
             layoutParams.x = 28;
             layoutParams.y = 120;
-            WindowManager windowManager = this.f1545i;
+            WindowManager windowManager = this.i;
             if (windowManager != null) {
-                windowManager.addView(this.f1546j, layoutParams);
+                windowManager.addView(this.j, layoutParams);
             }
             m985c();
-            C0565q1 c0565q1 = this.f1543g;
+            Q1 c0565q1 = this.g;
             if (c0565q1 != null) {
                 c0565q1.mo1114c(null);
             }
-            this.f1543g = AbstractC0525d0.m1141s(this.f1541e, null, new C0075s1(this, interfaceC2313c, 1), 3);
+            this.g = AbstractD0.s(this.e, null, new S1(this, interfaceC2313c, 1), 3);
         }
         return 1;
     }

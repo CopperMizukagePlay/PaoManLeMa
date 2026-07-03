@@ -1,17 +1,15 @@
-package androidx.compose.p007ui.semantics;
+package androidx.compose.ui.semantics;
 
-import p028d2.C0471d;
-import p162v1.AbstractC3556y0;
-import p177x0.AbstractC3809q;
+import d2.D;
+import v1.AbstractY0;
+import x0.AbstractQ;
 
-/* compiled from: r8-map-id-091eedbcc63bb3784ce17035a64051c23f885688c02fb159d88a8d507f170047 */
-/* loaded from: classes.dex */
-public final class EmptySemanticsElement extends AbstractC3556y0 {
+public final class EmptySemanticsElement extends AbstractY0 {
 
-    /* renamed from: a */
-    public final C0471d f794a;
+    
+    public final D f794a;
 
-    public EmptySemanticsElement(C0471d c0471d) {
+    public EmptySemanticsElement(D c0471d) {
         this.f794a = c0471d;
     }
 
@@ -22,9 +20,9 @@ public final class EmptySemanticsElement extends AbstractC3556y0 {
         return false;
     }
 
-    @Override // p162v1.AbstractC3556y0
-    /* renamed from: h */
-    public final AbstractC3809q mo312h() {
+    @Override // v1.AbstractY0
+    
+    public final AbstractQ mo312h() {
         return this.f794a;
     }
 
@@ -32,8 +30,8 @@ public final class EmptySemanticsElement extends AbstractC3556y0 {
         return System.identityHashCode(this);
     }
 
-    @Override // p162v1.AbstractC3556y0
-    /* renamed from: i */
-    public final /* bridge */ /* synthetic */ void mo313i(AbstractC3809q abstractC3809q) {
+    @Override // v1.AbstractY0
+    
+    public final /* bridge */ /* synthetic */ void mo313i(AbstractQ abstractC3809q) {
     }
 }

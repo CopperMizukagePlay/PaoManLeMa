@@ -1,18 +1,16 @@
-package androidx.compose.p007ui.draw;
+package androidx.compose.ui.draw;
 
-import p010b1.C0268f;
-import p150t5.InterfaceC3279c;
-import p162v1.AbstractC3556y0;
-import p177x0.AbstractC3809q;
+import b1.F;
+import t5.InterfaceC;
+import v1.AbstractY0;
+import x0.AbstractQ;
 
-/* compiled from: r8-map-id-091eedbcc63bb3784ce17035a64051c23f885688c02fb159d88a8d507f170047 */
-/* loaded from: classes.dex */
-final class DrawWithContentElement extends AbstractC3556y0 {
+final class DrawWithContentElement extends AbstractY0 {
 
-    /* renamed from: a */
-    public final InterfaceC3279c f746a;
+    
+    public final InterfaceC f746a;
 
-    public DrawWithContentElement(InterfaceC3279c interfaceC3279c) {
+    public DrawWithContentElement(InterfaceC interfaceC3279c) {
         this.f746a = interfaceC3279c;
     }
 
@@ -29,12 +27,12 @@ final class DrawWithContentElement extends AbstractC3556y0 {
         return false;
     }
 
-    /* JADX WARN: Type inference failed for: r0v0, types: [b1.f, x0.q] */
-    @Override // p162v1.AbstractC3556y0
-    /* renamed from: h */
-    public final AbstractC3809q mo312h() {
-        ?? abstractC3809q = new AbstractC3809q();
-        abstractC3809q.f1002s = this.f746a;
+    
+    @Override // v1.AbstractY0
+    
+    public final AbstractQ mo312h() {
+        ?? abstractC3809q = new AbstractQ();
+        abstractC3809q.s = this.f746a;
         return abstractC3809q;
     }
 
@@ -42,9 +40,9 @@ final class DrawWithContentElement extends AbstractC3556y0 {
         return this.f746a.hashCode();
     }
 
-    @Override // p162v1.AbstractC3556y0
-    /* renamed from: i */
-    public final void mo313i(AbstractC3809q abstractC3809q) {
-        ((C0268f) abstractC3809q).f1002s = this.f746a;
+    @Override // v1.AbstractY0
+    
+    public final void mo313i(AbstractQ abstractC3809q) {
+        ((F) abstractC3809q).s = this.f746a;
     }
 }

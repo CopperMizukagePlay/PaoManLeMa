@@ -1,18 +1,16 @@
-package androidx.compose.p007ui.focus;
+package androidx.compose.ui.focus;
 
-import p019c1.C0359c;
-import p150t5.InterfaceC3279c;
-import p162v1.AbstractC3556y0;
-import p177x0.AbstractC3809q;
+import c1.C;
+import t5.InterfaceC;
+import v1.AbstractY0;
+import x0.AbstractQ;
 
-/* compiled from: r8-map-id-091eedbcc63bb3784ce17035a64051c23f885688c02fb159d88a8d507f170047 */
-/* loaded from: classes.dex */
-final class FocusChangedElement extends AbstractC3556y0 {
+final class FocusChangedElement extends AbstractY0 {
 
-    /* renamed from: a */
-    public final InterfaceC3279c f756a;
+    
+    public final InterfaceC f756a;
 
-    public FocusChangedElement(InterfaceC3279c interfaceC3279c) {
+    public FocusChangedElement(InterfaceC interfaceC3279c) {
         this.f756a = interfaceC3279c;
     }
 
@@ -29,12 +27,12 @@ final class FocusChangedElement extends AbstractC3556y0 {
         return false;
     }
 
-    /* JADX WARN: Type inference failed for: r0v0, types: [x0.q, c1.c] */
-    @Override // p162v1.AbstractC3556y0
-    /* renamed from: h */
-    public final AbstractC3809q mo312h() {
-        ?? abstractC3809q = new AbstractC3809q();
-        abstractC3809q.f1225s = this.f756a;
+    
+    @Override // v1.AbstractY0
+    
+    public final AbstractQ mo312h() {
+        ?? abstractC3809q = new AbstractQ();
+        abstractC3809q.s = this.f756a;
         return abstractC3809q;
     }
 
@@ -42,9 +40,9 @@ final class FocusChangedElement extends AbstractC3556y0 {
         return this.f756a.hashCode();
     }
 
-    @Override // p162v1.AbstractC3556y0
-    /* renamed from: i */
-    public final void mo313i(AbstractC3809q abstractC3809q) {
-        ((C0359c) abstractC3809q).f1225s = this.f756a;
+    @Override // v1.AbstractY0
+    
+    public final void mo313i(AbstractQ abstractC3809q) {
+        ((C) abstractC3809q).s = this.f756a;
     }
 }

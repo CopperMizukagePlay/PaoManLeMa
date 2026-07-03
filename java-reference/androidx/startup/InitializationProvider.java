@@ -8,11 +8,9 @@ import android.content.pm.PackageManager;
 import android.database.Cursor;
 import android.net.Uri;
 import android.os.Trace;
-import p159u6.AbstractC3393k;
-import p193z3.C3868a;
+import u6.AbstractK;
+import z3.A;
 
-/* compiled from: r8-map-id-091eedbcc63bb3784ce17035a64051c23f885688c02fb159d88a8d507f170047 */
-/* loaded from: classes.dex */
 public class InitializationProvider extends ContentProvider {
     @Override // android.content.ContentProvider
     public final int delete(Uri uri, String str, String[] strArr) {
@@ -34,12 +32,12 @@ public class InitializationProvider extends ContentProvider {
         Context context = getContext();
         if (context != null) {
             if (context.getApplicationContext() != null) {
-                C3868a m5885c = C3868a.m5885c(context);
-                Context context2 = m5885c.f18132c;
+                A c = A.c(context);
+                Context context2 = c.c;
                 try {
                     try {
-                        AbstractC3393k.m5137h("Startup");
-                        m5885c.m5886a(context2.getPackageManager().getProviderInfo(new ComponentName(context2.getPackageName(), InitializationProvider.class.getName()), 128).metaData);
+                        AbstractK.h("Startup");
+                        c.a(context2.getPackageManager().getProviderInfo(new ComponentName(context2.getPackageName(), InitializationProvider.class.getName()), 128).metaData);
                         return true;
                     } catch (PackageManager.NameNotFoundException e7) {
                         throw new RuntimeException(e7);

@@ -1,14 +1,12 @@
-package androidx.compose.p007ui.viewinterop;
+package androidx.compose.ui.viewinterop;
 
-import p162v1.AbstractC3556y0;
-import p163v2.ViewTreeObserverOnGlobalFocusChangeListenerC3574n;
-import p177x0.AbstractC3809q;
+import v1.AbstractY0;
+import v2.ViewTreeObserverOnGlobalFocusChangeListenerC3574n;
+import x0.AbstractQ;
 
-/* compiled from: r8-map-id-091eedbcc63bb3784ce17035a64051c23f885688c02fb159d88a8d507f170047 */
-/* loaded from: classes.dex */
-final class FocusGroupPropertiesElement extends AbstractC3556y0 {
+final class FocusGroupPropertiesElement extends AbstractY0 {
 
-    /* renamed from: a */
+    
     public static final FocusGroupPropertiesElement f795a = new FocusGroupPropertiesElement();
 
     private FocusGroupPropertiesElement() {
@@ -21,9 +19,9 @@ final class FocusGroupPropertiesElement extends AbstractC3556y0 {
         return false;
     }
 
-    @Override // p162v1.AbstractC3556y0
-    /* renamed from: h */
-    public final AbstractC3809q mo312h() {
+    @Override // v1.AbstractY0
+    
+    public final AbstractQ mo312h() {
         return new ViewTreeObserverOnGlobalFocusChangeListenerC3574n();
     }
 
@@ -31,8 +29,8 @@ final class FocusGroupPropertiesElement extends AbstractC3556y0 {
         return -1929324230;
     }
 
-    @Override // p162v1.AbstractC3556y0
-    /* renamed from: i */
-    public final /* bridge */ /* synthetic */ void mo313i(AbstractC3809q abstractC3809q) {
+    @Override // v1.AbstractY0
+    
+    public final /* bridge */ /* synthetic */ void mo313i(AbstractQ abstractC3809q) {
     }
 }
